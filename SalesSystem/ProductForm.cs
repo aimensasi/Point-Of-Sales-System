@@ -39,5 +39,11 @@ namespace SalesSystem
         {
 
         }
+
+        private void btn_new_product_Click(object sender, EventArgs e)
+        {
+            CreateProductForm newProductForm = new CreateProductForm();
+            newProductForm.ShowDialog();
+        }
     }
 }
