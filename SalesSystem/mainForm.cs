@@ -27,7 +27,7 @@ namespace SalesSystem
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void tb_dashboard_Click(object sender, EventArgs e)
+        private void tbs_dashboard_Click(object sender, EventArgs e)
         {
             dashboard1.Visible = true;
             dashboard1.BringToFront();
@@ -39,10 +39,22 @@ namespace SalesSystem
             products1.BringToFront();
         }
 
-        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        private void tbs_orders_Click(object sender, EventArgs e)
         {
             orderForm1.Visible = true;
             orderForm1.BringToFront();
+        }
+
+        private void tbs_users_Click(object sender, EventArgs e)
+        {
+            userForm1.Visible = true;
+            userForm1.BringToFront();
+        }
+
+        private void tbs_settings_Click(object sender, EventArgs e)
+        {
+            accountSettingsForm1.Visible = true;
+            accountSettingsForm1.BringToFront();
         }
 
     }

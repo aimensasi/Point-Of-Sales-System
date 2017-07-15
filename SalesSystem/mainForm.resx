@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuFlatButton6.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbs_settings.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAU5JREFUSEvl
         1D1Lw0Acx/GIFrGDCBXqoHXtpN19WMQXIfgKnApOooIvolBw0LmLOBYEBxFB3XzAwXbrpqM6WGv9/pIc
@@ -129,7 +129,7 @@
         QeprEHcXOcX1HCRKv5M8lOi/yJ6yZfy7eN4PJdqNhdtLULAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuFlatButton5.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbs_users.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAx9JREFUaEPt
         2UnITWEcx/FrHjNklkxFoWQqkSRlJwtRFhYWsjJlgSxYWZhKFoiEUkSGjWzYYEEpiczzPM/JzPd369Rx
@@ -148,7 +148,7 @@
         azZPnjx58tRJCoXfHfbyuyhzv7gAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuFlatButton4.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbs_orders.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAcRJREFUaEPt
         2LtKxEAUgOEFBREsRSutRC0UH0KxtRJrEZ/BSvAxvGEp3rGz8x2sVHwBxbuCVl7+gwTG5JhiZk6Skf3h
@@ -187,7 +187,7 @@
         xlzJna+mVicKrkz8Dp1rlmvFQS2GIhnYlwR3rR01M/MPnWAHmIgigjsAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuFlatButton2.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbs_cashier.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAA6BJREFUeF7t
         mE3IFVUYx18/UCkLtCIryRZJmLZzEbjSnVpgmJi0siCFNrXQbKeuRCXCnagbERX6wjJ04yJQQchNuVAp
@@ -208,7 +208,7 @@
         UWibTKYotE12dHR0dHR0dBQwNHQH/b8P3JFTJHYAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="tb_dashboard.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbs_dashboard.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAhtJREFUWEft
         ls+LTVEcwO8wOyxkiskoNIZkM3/ENCU1ImHUrKRIZGEhG/+ERmYxC2rKz/yMIiZbxIKUjUQW8iMs/Obz

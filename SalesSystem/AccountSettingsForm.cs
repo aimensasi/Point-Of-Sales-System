@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace SalesSystem
 {
-    public partial class UserForm : UserControl
+    public partial class AccountSettingsForm : UserControl
     {
-        public UserForm()
+        public AccountSettingsForm()
         {
             InitializeComponent();
-        }
-
-        private void btn_new_product_Click(object sender, EventArgs e)
-        {
-            CreateUserForm user = new CreateUserForm();
-            user.ShowDialog();
-         
         }
     }
 }

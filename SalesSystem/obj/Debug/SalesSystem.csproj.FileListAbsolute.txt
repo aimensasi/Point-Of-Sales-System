@@ -11,3 +11,6 @@ C:\Users\AIMEN.S.A.SASI\documents\visual studio 2013\Projects\SalesSystem\SalesS
 C:\Users\AIMEN.S.A.SASI\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.ProductForm.resources
 C:\Users\AIMEN.S.A.SASI\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.OrderForm.resources
 C:\Users\AIMEN.S.A.SASI\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.UserForm.resources
+C:\Users\AIMEN.S.A.SASI\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.AccountSettingsForm.resources
+C:\Users\AIMEN.S.A.SASI\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.csprojResolveAssemblyReference.cache
+C:\Users\AIMEN.S.A.SASI\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.CreateUserForm.resources
