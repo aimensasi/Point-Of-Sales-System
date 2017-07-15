@@ -190,7 +190,7 @@
             this.category_field.NomalColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(132)))), ((int)(((byte)(137)))));
             this.category_field.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(132)))), ((int)(((byte)(137)))));
             this.category_field.selectedIndex = 0;
-            this.category_field.Size = new System.Drawing.Size(151, 33);
+            this.category_field.Size = new System.Drawing.Size(167, 33);
             this.category_field.TabIndex = 7;
             // 
             // stock_level_field
@@ -205,7 +205,7 @@
             this.stock_level_field.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(132)))), ((int)(((byte)(137)))));
             this.stock_level_field.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(71)))), ((int)(((byte)(75)))));
             this.stock_level_field.LineThickness = 3;
-            this.stock_level_field.Location = new System.Drawing.Point(369, 272);
+            this.stock_level_field.Location = new System.Drawing.Point(382, 272);
             this.stock_level_field.Margin = new System.Windows.Forms.Padding(4);
             this.stock_level_field.Name = "stock_level_field";
             this.stock_level_field.Size = new System.Drawing.Size(112, 33);

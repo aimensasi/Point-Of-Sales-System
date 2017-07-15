@@ -42,17 +42,26 @@ namespace SalesSystem
             
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                string iName = openFileDialog1.SafeFileName;
-                string fileName = openFileDialog1.FileName;
-                File.Copy(fileName, appPath + iName);
-                pictureBox1.Image = Image.FromFile(fileName);
+                try {
+                    string iName = openFileDialog1.SafeFileName;
+                    string fileName = openFileDialog1.FileName;
+                    string imagePath = appPath + iName;
+                    File.Copy(fileName, imagePath);
+                    pictureBox1.Image = Image.FromFile(imagePath);
+                }
+                catch (Exception exp)
+                {
+                    MessageBox.Show("Unable to open file " + exp.Message);
+                }
+
             }
 
         }
 
         private void btn_cancel_Click(object sender, EventArgs e)
         {
-            this.Dispose();
+            //this.Dispose();
+            
         }
 
         private void btn_create_Click(object sender, EventArgs e)
