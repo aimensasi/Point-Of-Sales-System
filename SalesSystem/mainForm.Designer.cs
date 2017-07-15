@@ -329,7 +329,7 @@
             this.btn_close.Zoom = 10;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
-            // panel1
+            // containerPanel
             // 
             this.panel1.Controls.Add(this.dashboard1);
             this.panel1.Controls.Add(this.products1);

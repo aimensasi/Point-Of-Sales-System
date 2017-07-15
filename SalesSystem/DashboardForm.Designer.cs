@@ -247,7 +247,7 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "305";
             // 
-            // pictureBox1
+            // mProductPictureBox
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(5, 5);

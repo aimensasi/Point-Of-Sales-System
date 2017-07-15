@@ -89,7 +89,7 @@
             this.btn_close.Zoom = 10;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
-            // pictureBox1
+            // mProductPictureBox
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
