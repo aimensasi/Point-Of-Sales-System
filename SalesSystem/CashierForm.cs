@@ -16,5 +16,7 @@ namespace SalesSystem
         {
             InitializeComponent();
         }
+
+      
     }
 }

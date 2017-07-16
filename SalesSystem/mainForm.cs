@@ -57,5 +57,11 @@ namespace SalesSystem
             accountSettingsForm1.BringToFront();
         }
 
+        private void tbs_cashier_Click(object sender, EventArgs e)
+        {
+            cashierUserControl1.Visible = true;
+            cashierUserControl1.BringToFront();
+        }
+
     }
 }

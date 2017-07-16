@@ -46,6 +46,7 @@
             this.orderForm1 = new SalesSystem.OrderForm();
             this.userForm1 = new SalesSystem.UserForm();
             this.accountSettingsForm1 = new SalesSystem.AccountSettingsForm();
+            this.cashierUserControl1 = new SalesSystem.CashierUserControl();
             this.navbar_left.SuspendLayout();
             this.nav.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_minimize)).BeginInit();
@@ -242,6 +243,7 @@
             this.tbs_cashier.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tbs_cashier.Textcolor = System.Drawing.Color.Black;
             this.tbs_cashier.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbs_cashier.Click += new System.EventHandler(this.tbs_cashier_Click);
             // 
             // tbs_dashboard
             // 
@@ -329,13 +331,14 @@
             this.btn_close.Zoom = 10;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
-            // containerPanel
+            // panel1
             // 
             this.panel1.Controls.Add(this.dashboard1);
             this.panel1.Controls.Add(this.products1);
             this.panel1.Controls.Add(this.orderForm1);
             this.panel1.Controls.Add(this.userForm1);
             this.panel1.Controls.Add(this.accountSettingsForm1);
+            this.panel1.Controls.Add(this.cashierUserControl1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(191, 38);
             this.panel1.Name = "panel1";
@@ -360,6 +363,7 @@
             // 
             // orderForm1
             // 
+            this.orderForm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
             this.orderForm1.Location = new System.Drawing.Point(0, 0);
             this.orderForm1.Name = "orderForm1";
             this.orderForm1.Size = new System.Drawing.Size(704, 423);
@@ -367,6 +371,7 @@
             // 
             // userForm1
             // 
+            this.userForm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
             this.userForm1.Location = new System.Drawing.Point(0, 0);
             this.userForm1.Name = "userForm1";
             this.userForm1.Size = new System.Drawing.Size(704, 423);
@@ -375,11 +380,20 @@
             // 
             // accountSettingsForm1
             // 
+            this.accountSettingsForm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
             this.accountSettingsForm1.Location = new System.Drawing.Point(0, 0);
             this.accountSettingsForm1.Name = "accountSettingsForm1";
             this.accountSettingsForm1.Size = new System.Drawing.Size(704, 423);
             this.accountSettingsForm1.TabIndex = 4;
             this.accountSettingsForm1.Visible = false;
+            // 
+            // cashierUserControl1
+            // 
+            this.cashierUserControl1.Location = new System.Drawing.Point(0, 0);
+            this.cashierUserControl1.Name = "cashierUserControl1";
+            this.cashierUserControl1.Size = new System.Drawing.Size(704, 423);
+            this.cashierUserControl1.TabIndex = 5;
+            this.cashierUserControl1.Visible = false;
             // 
             // MainForm
             // 
@@ -391,6 +405,7 @@
             this.Controls.Add(this.navbar_left);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "s";
             this.navbar_left.ResumeLayout(false);
             this.navbar_left.PerformLayout();
@@ -421,6 +436,7 @@
         private OrderForm orderForm1;
         private UserForm userForm1;
         private AccountSettingsForm accountSettingsForm1;
+        private CashierUserControl cashierUserControl1;
 
     }
 }
