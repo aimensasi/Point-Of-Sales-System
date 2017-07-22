@@ -105,6 +105,7 @@
             this.Controls.Add(this.nav);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CashierForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CashierForm";
             this.nav.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn_minimize)).EndInit();
